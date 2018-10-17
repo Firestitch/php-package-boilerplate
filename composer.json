@@ -1,15 +1,9 @@
 {
-    "name": "firestitch/pdf",
+    "name": "firestitch/php-package-boilerplate",
     "type": "library",
-    "keywords": [
-        "pdf",
-        "fpdi",
-        "fpdf"
-    ],
     "license": "MIT",
     "require": {
-        "php": "^7.0",
-        "setasign/fpdi-tcpdf": "^2.0"
+        "php": "^7.0"
     },
     "autoload": {
         "psr-0": {
