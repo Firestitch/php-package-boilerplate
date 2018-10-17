@@ -6,7 +6,7 @@ Copy the contents of the repo https://github.com/Firestitch/php-package-boilerpl
 
 Open the composer.json and rename the name property to the name of the package
 
-
+To register the package goto https://packagist.org/packages/submit and enter the GitHub repo ie: https://github.com/Firestitch/php-[name] and submit the form.
 
 # Installing Existing Package
 
@@ -34,4 +34,4 @@ php composer.phar update
 
 # Publishing 
 
-Once the code is developed and tested use the submit form to publish the package. https://packagist.org/packages/submit
+Once the code is developed and tested goto the package in Packagist ie: https://packagist.org/packages/firestitch/pdf and click the update button to publish the latest changes.
