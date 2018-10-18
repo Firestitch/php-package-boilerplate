@@ -12,6 +12,7 @@ To register the package goto https://packagist.org/packages/submit and enter the
 
 First clone the codebase into a local directory. Besure to update all submodules recursively.
 
+Nginx
 ```
 server {
     listen       80;
@@ -23,6 +24,18 @@ server {
       try_files $uri /index.php?$query_string;
     }
 }
+```
+Apache:
+```
+<VirtualHost *:80>
+    ServerName [package-name].local.firestitch.com
+    DocumentRoot [local-directory]\demo
+    <Directory "[local-directory]\demo"> 
+        AllowOverride All
+        Require all granted
+        DirectoryIndex index.php
+    </Directory>
+</VirtualHost>
 ```
 
 In the root of the codebase run the following command
