@@ -12,7 +12,7 @@ To register the package goto https://packagist.org/packages/submit and enter the
 
 First clone the codebase into a local directory. Besure to update all submodules recursively.
 
-Nginx
+Nginx:
 ```
 server {
     listen       80;
